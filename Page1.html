@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <h1> Assignment 1</h1>
-    <h1> Assignment 2</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <script>
+            /** JS Code **/
+        </script>
+        <style>
+            header{
+                height:150px;
+                width: 100%;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                background-color: grey;
+            }
+            #container{
+                display: flex;
+                flex-wrap: wrap;
+                width: 80%;
+                margin: auto;
+            }
+            .middleBoxes{
+                background-color: gray;
+                width: 400px;
+                height: 500px;
+                flex-grow: 1;
+                flex-shrink: 0;
+                flex-basis: 400px;;
+                margin: 1%;
+
+            }
+            footer{
+                height: 250px;
+                width: 100%;
+                display: flex;
+                clear: both;
+                background-color: gray;
+            }
+            .footerBox{
+                flex: 1 1 100px;
+                background-color: darkgrey;
+                width: 150px;
+                margin: 1%;
+                height: 225px;
+                justify-content: center;
+                align-items: center;
+            }
+
+        </style>
+    </head>
+    <body>
+    <div id="container">
+        <header>
+            <h1 style="text-align: center">Title of the webpage</h1>
+        </header>
+
+            <section class="middleBoxes">MIDDLE LEFT: Address the following in this section:</section>
+            <section class="middleBoxes">MIDDLE RIGHT: Address the following in this section:</section>
+
+        <footer>
+            <div class="footerBox"> Box #1 </div>
+            <div class="footerBox"> Box #2 </div>
+            <div class="footerBox"> Box #3 </div>
+        </footer>
+    </div>
+    </body>
 </html>
