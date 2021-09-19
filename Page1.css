@@ -1,0 +1,67 @@
+header{
+    height:150px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    /*border: 5px solid #FFFF00;*/
+    align-items: center;
+}
+
+.middleBoxes{
+    background-color: gray;
+    width: 400px;
+    height: 500px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 400px;;
+    margin: 1%;
+    /*justify-content: center;*/
+    text-align: center;
+    vertical-align: center;
+}
+footer{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    clear: both;
+    background-color: gray;
+}
+.footerBox{
+    flex: 1 1 100px;
+    background-color: darkgrey;
+    width: 150px;
+    margin: 1%;
+    height: 225px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* smaller than 1024 pixels */
+@media screen and (max-width: 1024px) {
+    header{
+        background-color: #cdbf34;
+    }
+}
+
+/* smaller than 768 pixels */
+@media screen and (max-width: 720px) {
+    header{
+        background-color: #23ff22;
+    }
+}
+
+/* smaller than 480 pixels */
+@media screen and (max-width: 480px) {
+    header{
+        background-color: #ff2200;
+    }
+}
