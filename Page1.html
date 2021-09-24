@@ -3,18 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <title>Title</title>
-        <script>
-            /** JS Code **/
-        </script>
+        <script src="FontSize.js"></script>
         <link rel="stylesheet" href="Page1.css">
     </head>
     <body>
-    <div id="container">
+    <div id="container" class="mediumText">
         <header>
-            <h1> Song recommendations and Lyrics </h1>
+            <h2> Song recommendations and Lyrics </h2>
         </header>
 
         <section class="middleBoxes">
+
+            <h4>RESTFul API</h4>
+
             <p>
                 We plan to use the following Restful APIs for the project:<br>
                 MusixMatch REST API - https://www.programmableweb.com/api/musixmatch-rest-api <br>
@@ -31,13 +32,20 @@
 
                 We will be using fname, lname, dob, email, password, location, genres and some other entities in our database.
             </p>
+
         </section>
 
         <section class="middleBoxes">
-            <p>
-                The target audience of the website is everyone who listens to music, wants to know the lyrics to the song and open to new song recommendations <br>
 
-                <br>Goals: <br>
+            <h4>Target Audience</h4>
+
+            <p>
+                The target audience of the website is everyone who listens to music, wants to know the lyrics to the song and open to new song recommendations
+                <br>
+                <br>
+                <br>
+
+                <h4>Goals</h4>
                 1) It can be really tough finding the lyrics to the song without knowing the song name. Our primary goal is to display synchronised lyrics to the user ad-free.<br>
                 2) Allow the user to explore songs from the similar genre and generate accurate recommendation based on their mood and the genre of song they are currently playing.<br>
                 3) Our other goals include allowing the user to see and interact with the artist's name, artist's upcoming shows and upcoming albums.<br>
@@ -48,6 +56,9 @@
 
         <footer>
             <section class="footerBox">
+
+                <h4>APIs</h4>
+
                 <p>
                     <a href="https://www.programmableweb.com/api/musixmatch-rest-api"> MusixMatch REST API </a>
                     <br>
@@ -58,18 +69,31 @@
                     https://developer.musixmatch.com/
                 </p>
             </section>
+
             <section class="footerBox">
+
+                <h4>Concerns</h4>
                 <p>
                     We were wondering if there are any more functionalities we can add to the website.<br>
                     We would also like to know if there are better APIs to find the upcoming shows for a given artists and then display them on a google map with respect to the user's current location.<br>
                 </p>
             </section>
+
             <section class="footerBox">
+
+                <h4>Font Size</h4>
                 <p>
-                TODO with Vanilla JS<br>
+                    <a href="javascript:FontSizeS();">Small Font</a>
+                    <br>
+                    <a href="javascript:FontSizeM();">Medium Font</a>
+                    <br>
+                    <a href="javascript:FontSizeL();">Large Font</a>
+                    <br>
                 </p>
             </section>
+
         </footer>
+
     </div>
     </body>
 </html>

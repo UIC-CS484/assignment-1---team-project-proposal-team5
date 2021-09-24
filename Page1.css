@@ -12,7 +12,6 @@ header{
     flex-wrap: wrap;
     width: 100%;
     margin: auto;
-    /*border: 5px solid #FFFF00;*/
     align-items: center;
 }
 
@@ -24,28 +23,9 @@ header{
     flex-shrink: 0;
     flex-basis: 400px;
     margin: 1%;
-    /*justify-content: center;*/
     text-align: center;
     vertical-align: center;
 }
-/*footer{*/
-/*    height: 250px;*/
-/*    width: 100%;*/
-/*    display: flex;*/
-/*    background-color: gray;*/
-/*}*/
-/*.footerBox{*/
-/*    !*flex-grow: 1;*!*/
-/*    !*flex-shrink: 0;*!*/
-/*    !*flex-basis: 150px;*!*/
-/*    !*display: flex;*!*/
-/*    !*background-color: darkgrey;*!*/
-/*    !*width: 100%;*!*/
-/*    !*margin: 1%;*!*/
-/*    !*height: 225px;*!*/
-/*    !*justify-content: center;*!*/
-/*    !*align-items: center;*!*/
-/*}*/
 
 p{
     word-wrap:break-word;
@@ -66,9 +46,24 @@ footer{
     min-width: 27%;
 }
 
+#container.smallText{
+    font-size: 14px;
+}
+
+#container.mediumText{
+    font-size: 16px;
+}
+
+#container.largeText{
+    font-size: 18px;
+}
+
 /* smaller than 1024 pixels */
 @media screen and (max-width: 1024px) {
     header{
+        background-color: #cdbf34;
+    }
+    .middleBoxes{
         background-color: #cdbf34;
     }
 }
@@ -78,11 +73,17 @@ footer{
     header{
         background-color: #23ff22;
     }
+    .middleBoxes{
+        background-color: #23ff22;
+    }
 }
 
 /* smaller than 480 pixels */
 @media screen and (max-width: 480px) {
     header{
+        background-color: #ff2200;
+    }
+    .middleBoxes{
         background-color: #ff2200;
     }
 }
