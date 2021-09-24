@@ -2,7 +2,7 @@ Link to our GitHub Page
 ========================
 -----------------------
 
-[Project Website] (https://uic-cs484.github.io/assignment-1---team-project-proposal-team5)
+[Project Website](https://uic-cs484.github.io/assignment-1---team-project-proposal-team5/Page1.html)
 
 ----------------------
 Team Workflow Strategy

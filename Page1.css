@@ -10,7 +10,7 @@ header{
 #container{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
     margin: auto;
     /*border: 5px solid #FFFF00;*/
     align-items: center;
@@ -22,27 +22,48 @@ header{
     height: 500px;
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 400px;;
+    flex-basis: 400px;
     margin: 1%;
     /*justify-content: center;*/
     text-align: center;
     vertical-align: center;
 }
+/*footer{*/
+/*    height: 250px;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    background-color: gray;*/
+/*}*/
+/*.footerBox{*/
+/*    !*flex-grow: 1;*!*/
+/*    !*flex-shrink: 0;*!*/
+/*    !*flex-basis: 150px;*!*/
+/*    !*display: flex;*!*/
+/*    !*background-color: darkgrey;*!*/
+/*    !*width: 100%;*!*/
+/*    !*margin: 1%;*!*/
+/*    !*height: 225px;*!*/
+/*    !*justify-content: center;*!*/
+/*    !*align-items: center;*!*/
+/*}*/
+
+p{
+    word-wrap:break-word;
+}
+
 footer{
-    height: 250px;
+    background: darkgrey;
     width: 100%;
     display: flex;
-    clear: both;
-    background-color: gray;
-}
-.footerBox{
-    flex: 1 1 100px;
-    background-color: darkgrey;
-    width: 150px;
+    padding: 10px;
     margin: 1%;
-    height: 225px;
-    justify-content: center;
-    align-items: center;
+}
+
+.footerBox{
+    background: grey;
+    margin: 10px 10px;
+    padding: 10px;
+    min-width: 27%;
 }
 
 /* smaller than 1024 pixels */
